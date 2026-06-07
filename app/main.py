@@ -6,8 +6,8 @@ load_dotenv()
 from app.webhook import router as webhook_router  # noqa: E402（dotenv後に読み込む）
 
 app = FastAPI(
-    title="TsuduNavi",
-    description="TsuduNavi — LINE × Claude × Google Calendarで体験授業の予約を自動化するシステム",
+    title="ツヅナビ",
+    description="ツヅナビ — LINE × Claude × Google Calendarで体験授業の予約を自動化するシステム",
     version="1.0.0",
 )
 

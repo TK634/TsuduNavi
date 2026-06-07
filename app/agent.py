@@ -32,7 +32,7 @@ from app.models import (
 
 _claude = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY", ""))
 
-_SYSTEM_PROMPT = """あなたはTsuduNaviです。学習塾の体験授業予約をサポートするAIアシスタントです。
+_SYSTEM_PROMPT = """あなたはツヅナビです。学習塾の体験授業予約をサポートするAIアシスタントです。
 保護者が体験授業を予約できるようサポートしてください。
 
 【ヒアリング項目（この順番で収集）】

@@ -1,4 +1,4 @@
-# TsuduNavi
+# ツヅナビ
 
 LINE × Claude × Google Calendar を組み合わせた、体験授業の予約を自動化するシステムです。
 生徒管理・予約・会話履歴はすべて Supabase で完結するオールインワン構成です。
