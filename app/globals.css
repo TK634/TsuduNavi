@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9fafb;
+  --foreground: #111827;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* iOSのセーフエリア対応 */
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@layer utilities {
+  .safe-area-inset-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
